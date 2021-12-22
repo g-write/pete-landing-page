@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-nav {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px 140px;
+}
+
+.logo {
+    margin: 16px 0;
+    margin-right: auto;
+}
+
+ul {
+    display:flex;
+    list-style: none; 
+    margin: 16px ;  
+}
+
+li {
+    padding-left: 16px;
+    color: #e5e7eb;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+
+.flex-container-one {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    padding: 50px 50px 50px 140px;  
+}
+
+.flex-container-one > * {
+    flex-basis: 100%;
+    justify-content: center;
+
+}
+
+.flex-main {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button {
+    align-self: flex-end;
+    background-color: #3882F6;
+    color: white;
+    padding:8px 16px;
+}
+
+
+button:hover {
+    background-color: #80adf7;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 48px;
+}
+
+.main-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 180px;
+}
+
+.flex-sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+    margin: 30px;
+}
+
+.flex-container-two {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   max-width: 150px;
+   margin: 0 20px;
+   text-align: center;
+}
+
+.box img {
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 30px;
+    padding: 120px 350px;
+}
+
+
+.name {
+    text-align: end;
+    font-weight: bold;
+   
+}
+
+.flex-modal {
+    background-color: #3882F6;
+    color: white;
+    margin: 70px;
+    padding: 25px;
+    display: flex;
+    
+}
+
+.header {
+    font-size: 28px;
+}
+
+
+.flex-footer {
+    background-color:#1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:25px;
+    margin-top:auto;
+}
+
+.button-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding:8px 16px;
+}
+
+.picture {
+    border-radius: 25%;
+
+}
+
+    /*<img src="../landing-page/img/20210729_124213.jpg" alt="Pete the dog">*/
